@@ -11,7 +11,7 @@ exports.handler = async function(event) {
 
   const RESEND_KEY = 're_7bTWREUo_P1cRtEgUHB8hyXtyfCXWQ3io';
   const TO_EMAIL = 'ads@vrume.com';
-  const FROM_EMAIL = 'voicemail@vrume.com';
+  const FROM_EMAIL = 'noreply@overhauled.ai';
 
   const data = payload.data || {};
   const name = data.name || payload.name || 'Unknown';
