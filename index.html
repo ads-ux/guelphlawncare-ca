@@ -35,6 +35,137 @@
     "description": "Professional lawn care in Guelph. Mowing, fertilizing, aeration, overseeding & weed control. Seasonal programs available."
   }
   </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I mow my lawn in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During the growing season (May–October), most Guelph lawns benefit from mowing every 7–10 days. We recommend never removing more than one-third of the blade length at once."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What lawn care services do you offer in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer mowing, fertilizing, aeration, overseeding, dethatching, weed control, and spring/fall cleanup across Guelph and surrounding areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is the best time to aerate a lawn in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fall (late August to October) is the ideal time for core aeration in Guelph. The cooler temperatures and autumn rains help the grass recover and fill in the holes quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer free lawn care estimates in Guelph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide free on-site estimates for all lawn care services in Guelph. Contact us to schedule a convenient time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas near Guelph do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In addition to Guelph, we serve Kitchener, Cambridge, Puslinch, and surrounding Wellington County communities."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://guelphlawncare.ca/#website",
+  "url": "https://guelphlawncare.ca/",
+  "name": "Guelph Lawn Care",
+  "description": "Professional lawn care services in Guelph, Ontario. Mowing, fertilizing, aeration, overseeding, and seasonal cleanup.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "@id": "https://guelphlawncare.ca/#search",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://guelphlawncare.ca/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://guelphlawncare.ca/#webpage",
+  "url": "https://guelphlawncare.ca/",
+  "name": "Guelph Lawn Care",
+  "isPartOf": {"@id": "https://guelphlawncare.ca/#website"},
+  "about": {"@id": "https://guelphlawncare.ca/#business"},
+  "description": "Professional lawn care services in Guelph, Ontario. Mowing, fertilizing, aeration, overseeding, and seasonal cleanup.",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".hero h2", ".services h2", "p.lead"]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://guelphlawncare.ca/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LandscapingBusiness",
+  "@id": "https://guelphlawncare.ca/#business",
+  "name": "Guelph Lawn Care",
+  "description": "Professional lawn care services in Guelph, Ontario. Mowing, fertilizing, aeration, overseeding, and seasonal cleanup.",
+  "url": "https://guelphlawncare.ca/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Guelph",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "43.5448",
+    "longitude": "-80.2482"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Guelph"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "43.5448",
+      "longitude": "-80.2482"
+    },
+    "geoRadius": "30000"
+  }
+}
+</script>
 </head>
 <body>
 
@@ -44,9 +175,9 @@
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="/#services">Services</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li><a href="/contact.html" class="btn-nav">Free Quote</a></li>
+      <li><a href='/blog'>Blog</a></li>
+      <li><a href='/contact'>Contact</a></li>
+      <li><a class='btn-nav' href='/contact'>Free Quote</a></li>
     </ul>
     <button class="nav-toggle" onclick="toggleNav()" aria-label="Menu">☰</button>
   </nav>
@@ -57,7 +188,7 @@
     <h1>Lawn Care Services in Guelph</h1>
     <p class="hero-sub">Professional lawn maintenance programs for Guelph homeowners. Mowing, fertilizing, weed control & more.</p>
     <div class="hero-cta">
-      <a href="/contact.html" class="btn-primary">Get a Free Quote</a>
+      <a class='btn-primary' href='/contact'>Get a Free Quote</a>
       <a href="tel:226-790-0369" class="btn-secondary">Call 226-790-0369</a>
     </div>
   </div>
@@ -232,7 +363,7 @@
   <div class="container">
     <h2>Get a Free Quote</h2>
     <p>Contact us today for a free, no-obligation quote for lawn care services in Guelph.</p>
-    <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field">
+    <form class='contact-form' method='POST' name='contact'>
       <input type="hidden" name="form-name" value="contact">
       <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
       <div class="form-row">
@@ -285,14 +416,14 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/#services">Services</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href='/blog'>Blog</a></li>
+          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/privacy'>Privacy Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Guelph Lawn Care. All rights reserved. | <a href="/privacy.html">Privacy Policy</a> | Built by <a href="https://overhauled.ai">Overhauled.ai</a> | Leads by <a href="https://weprovideleads.com" rel="noopener">WeProvideLeads</a></p>
+      <p>&copy; 2026 Guelph Lawn Care. All rights reserved. | <a href='/privacy'>Privacy Policy</a> | Built by <a href="https://overhauled.ai">Overhauled.ai</a> | Leads by <a href="https://weprovideleads.com" rel="noopener">WeProvideLeads</a></p>
     </div>
   </div>
 </footer>
