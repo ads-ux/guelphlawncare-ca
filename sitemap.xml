@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://guelphlawncare.ca/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://guelphlawncare.ca/contact.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://guelphlawncare.ca/blog.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://guelphlawncare.ca/privacy.html</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://guelphlawncare.ca/</loc></url>
+  <url><loc>https://guelphlawncare.ca/lawn-care-cost-guelph</loc></url>
+  <url><loc>https://guelphlawncare.ca/privacy</loc></url>
+  <url><loc>https://guelphlawncare.ca/when-to-aerate-lawn-guelph</loc></url>
+  <url><loc>https://guelphlawncare.ca/fall-lawn-care-tips-guelph</loc></url>
+  <url><loc>https://guelphlawncare.ca/contact</loc></url>
+  <url><loc>https://guelphlawncare.ca/best-grass-seed-guelph</loc></url>
+  <url><loc>https://guelphlawncare.ca/blog</loc></url>
+  <url><loc>https://guelphlawncare.ca/weed-killer-guelph</loc></url>
 </urlset>
