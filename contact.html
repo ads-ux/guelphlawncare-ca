@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWRQZ2XFKJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZWRQZ2XFKJ');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Guelph Lawn Care</title>
@@ -96,7 +97,7 @@ src="https://www.facebook.com/tr?id=2194207214734752&ev=PageView&noscript=1"/></
     </div>
     <div class="contact-form-wrap">
       <h2>Request a Free Quote</h2>
-      <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field">
+      <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field" enctype="multipart/form-data" data-netlify="true">
         <input type="hidden" name="form-name" value="contact">
         <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
         <div class="form-row">
@@ -107,7 +108,7 @@ src="https://www.facebook.com/tr?id=2194207214734752&ev=PageView&noscript=1"/></
         <label>What do you need?
           <textarea name="message" rows="6" placeholder="Describe your project or issue..."></textarea>
         </label>
-        <button type="submit" class="btn-primary">Send My Request</button>
+        <label>Photos or Video (optional)</label><input type="file" name="photos" accept="image/*,video/*" multiple><button type="submit" class="btn-primary">Send My Request</button>
       </form>
     </div>
   </div>
